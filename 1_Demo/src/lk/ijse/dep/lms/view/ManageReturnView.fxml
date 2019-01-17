@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.lms.controller.ManageReturnController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="-1.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="676.0">
+         <fill>
+            <LinearGradient endX="0.638095238095238" endY="1.0" startX="0.638095238095238" startY="0.5619047619047619">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="211.0" layoutY="23.0" text="Return Books" textFill="#fcf8f8">
+         <font>
+            <Font name="Courier New" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgHome" fitHeight="70.0" fitWidth="100.0" layoutX="23.0" layoutY="9.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/house-148033_640.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblDate" layoutX="57.0" layoutY="98.0" prefHeight="25.0" prefWidth="166.0" />
+      <JFXTextField fx:id="txtBorrowID" labelFloat="true" layoutX="57.0" layoutY="137.0" onAction="#txtBorrowID_OnAction" prefHeight="25.0" prefWidth="546.0" promptText="Borrow ID" />
+      <JFXTextField fx:id="txtMemberID" labelFloat="true" layoutX="57.0" layoutY="180.0" prefHeight="25.0" prefWidth="546.0" promptText="Member ID" />
+      <JFXTextField fx:id="txtBookID" labelFloat="true" layoutX="57.0" layoutY="224.0" prefHeight="25.0" prefWidth="546.0" promptText="Book ID" />
+      <JFXButton fx:id="btnPenalty" buttonType="RAISED" layoutX="322.0" layoutY="273.0" onAction="#btnPenalty_OnAction" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: #99004d;" text="Calculate Penalty" textAlignment="CENTER" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXDatePicker fx:id="dprBorrowDate" layoutX="57.0" layoutY="272.0" prefHeight="28.0" prefWidth="144.0" promptText="Due Date">
+         <defaultColor>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#03544c" />
+                  <Stop color="#8a6c6c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </defaultColor>
+      </JFXDatePicker>
+      <Label fx:id="lblPenalty" layoutX="57.0" layoutY="322.0" prefHeight="17.0" prefWidth="546.0" />
+      <JFXButton fx:id="btnReturn" buttonType="RAISED" layoutX="261.0" layoutY="359.0" onAction="#btnReturn_OnAction" prefHeight="25.0" prefWidth="139.0" style="-fx-background-color: lime;" text="Return" textAlignment="CENTER" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

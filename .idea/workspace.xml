@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae49f176-fb90-4b2e-821a-514f94d8c5db" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LMS" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LMS" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LMS" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lms: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LMS" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lms: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="borrow: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LMS" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lms: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="returns: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="905790252">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.148" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="2" value="1" />
+          <entry key="author" value="1" />
+          <entry key="borrow" value="1" />
+          <entry key="fxml" value="51" />
+          <entry key="java" value="496" />
+          <entry key="lck" value="1" />
+          <entry key="log" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="sql" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="2" />
+          <entry key="JAVA" value="496" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="SQL" value="2" />
+          <entry key="Scratch" value="12" />
+          <entry key="XML" value="51" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="fxml" value="62" />
+          <entry key="java" value="16284" />
+          <entry key="properties" value="11" />
+          <entry key="sql" value="1710" />
+          <entry key="txt" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="16284" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Properties" value="11" />
+          <entry key="SQL" value="108" />
+          <entry key="Scratch" value="1602" />
+          <entry key="XML" value="62" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>public</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManagePublisherBO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManageReturnsBO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageAuthorBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManageBooksBO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageBooksBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageMemberBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManagePublisherBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageReturnsBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/BOFactory.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/view/ManageAuthorView.fxml" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/BooksDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageAuthor_BookBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/MemberDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/tablemodel/BorrowTM.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/Publisher_BookDTO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageMemberController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManagePublisherController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/QueryDAO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Author_Book.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/BooksDTO2.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/QueryDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/CustomEntity.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/Author_BookDTO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageAuthor_BookController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Borrow.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/BorrowDTO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/BorrowDAO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageBorrowBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManageBorrowBO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/view/ManageReturnView.fxml" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/ReturnsDTO.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageReturnController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/Converter.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Returns.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/ReturnsDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/AuthorDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageAuthorController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/tablemodel/Author_BookTM.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/Author_BookDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageBooksController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/Publisher_BookDTOPK.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/tablemodel/Publisher_BookTM.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManagePublisher_BookController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManagePublisher_BookBOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/Publisher_BookDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/view/ManageBorrowView.fxml" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageBorrowController.java" />
+        <option value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/BorrowDAOImpl.java" />
+        <option value="$PROJECT_DIR$/1_Demo/test/a.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/01c796f6-20c5-421e-8042-4e67031945dc/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="63" />
+    <option name="width" value="1316" />
+    <option name="height" value="582" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LibraryManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lms" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagementSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545283395324" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaFx" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.16503906" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DEP\Dep 1\LibraryManagementSystem\1_Demo\src\lk\ijse\dep\lms\business" />
+      <recent name="D:\DEP\Dep 1\LibraryManagementSystem\1_Demo\src\lk\ijse\dep\lms\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AppInitializer">
+    <configuration name="AppInitializer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lk.ijse.dep.lms.main.AppInitializer" />
+      <module name="1_Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lk.ijse.dep.lms.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a" />
+      <module name="1_Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: main" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/main" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="1_Demo" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AppInitializer" />
+      <item itemvalue="Application.a" />
+      <item itemvalue="Cucumber java.All Features in: main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppInitializer" />
+        <item itemvalue="Cucumber java.All Features in: main" />
+        <item itemvalue="Application.a" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae49f176-fb90-4b2e-821a-514f94d8c5db" name="Default Changelist" comment="" />
+      <created>1543989553926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543989553926</updated>
+      <workItem from="1543989557365" duration="4001000" />
+      <workItem from="1544068547996" duration="9666000" />
+      <workItem from="1544120394927" duration="14402000" />
+      <workItem from="1544147136647" duration="425000" />
+      <workItem from="1544175988539" duration="34390000" />
+      <workItem from="1544249051789" duration="3718000" />
+      <workItem from="1544261908763" duration="4775000" />
+      <workItem from="1544364720586" duration="13059000" />
+      <workItem from="1544413816071" duration="11322000" />
+      <workItem from="1544433700057" duration="15548000" />
+      <workItem from="1544510164766" duration="9089000" />
+      <workItem from="1544597946853" duration="26387000" />
+      <workItem from="1545025515587" duration="6006000" />
+      <workItem from="1545105751376" duration="4823000" />
+      <workItem from="1546228447392" duration="594000" />
+      <workItem from="1546318491695" duration="594000" />
+      <workItem from="1546406907211" duration="14000" />
+      <workItem from="1546428822676" duration="597000" />
+      <workItem from="1546514534776" duration="155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_Features_in__main - 2018.12.11 at 15h 35m 52s.xml">
+      <configuration name="All Features in: main" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="159565000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16490166" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32854864" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47049442" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872408" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32854864" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32854864" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" visible="true" weight="0.13388805" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32854864" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4290271" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872408" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32854864" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32854864" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.14145234" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>Books</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/Author_BookDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageAuthor_BookBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/tablemodel/BorrowTM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="130" column="14" lean-forward="true" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/BooksDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/BorrowDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManageBorrowBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/view/ManageReturnView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="37" column="104" selection-start-line="37" selection-start-column="104" selection-end-line="37" selection-end-column="104" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageReturnsBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/ReturnsDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/ReturnsDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Returns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://01c796f6-20c5-421e-8042-4e67031945dc/schema/lms/table/borrow">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageReturnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/DashboardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/view/DashboardView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1646" />
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/view/ManageAuthor_BookView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-813" />
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageAuthorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="192" column="46" lean-forward="true" selection-start-line="192" selection-start-column="46" selection-end-line="192" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManageAuthorBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageAuthorBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/tablemodel/Author_BookTM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManageAuthor_BookBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/ManageBooksBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/AuthorDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="50" column="111" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/BooksDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageBooksBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageBooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/Publisher_BookDTOPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Publisher_Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Publisher_BookPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Author_BookPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/tablemodel/Publisher_BookTM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageAuthor_BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="172" column="51" lean-forward="true" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/Author_BookDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManagePublisher_BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManagePublisher_BookBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/Publisher_BookDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/BOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/CrudDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dto/BorrowDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Borrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/CrudUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/controller/ManageBorrowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/business/custom/impl/ManageBorrowBOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/test/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/BorrowDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/view/ManageBorrowView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="98" column="103" selection-start-line="98" selection-start-column="103" selection-end-line="98" selection-end-column="103" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/01c796f6-20c5-421e-8042-4e67031945dc/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="78" column="66" selection-start-line="78" selection-start-column="66" selection-end-line="78" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/dao/custom/impl/QueryDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_Demo/src/lk/ijse/dep/lms/entity/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>1_Demo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-beanutils-1.9.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

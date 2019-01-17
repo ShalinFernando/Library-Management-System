@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="566.0" prefWidth="676.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.lms.controller.DashboardController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="178.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="715.0">
+         <fill>
+            <LinearGradient endX="0.38095238095238093" endY="0.8952380952380953" startX="0.3952380952380952" startY="0.2523809523809524">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fitHeight="111.0" fitWidth="251.0" layoutX="225.0" layoutY="53.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/book.gif" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fx:id="imgMember" fitHeight="150.0" fitWidth="120.0" layoutX="12.0" layoutY="259.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/members-42919_640.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBook" fitHeight="150.0" fitWidth="120.0" layoutX="151.0" layoutY="249.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/book-933088_640.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAuthor" fitHeight="150.0" fitWidth="120.0" layoutX="277.0" layoutY="249.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/hand-325321_640.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgPublisher" fitHeight="150.0" fitWidth="100.0" layoutX="404.0" layoutY="239.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/publisher.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="155.0" layoutY="12.0" text="Libarary Management System" textFill="#fcf8f8">
+         <font>
+            <Font name="Courier New" size="26.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="70.0" layoutY="536.0" prefHeight="16.0" prefWidth="577.0" text="Copyright 2018 IJSE - Shalin Fernando" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+         <textFill>
+            <RadialGradient centerX="0.4833333333333333" centerY="0.4380952380952381" focusAngle="-31.61" focusDistance="0.11627906976744184" radius="0.5930232558139534">
+               <stops>
+                  <Stop color="#2403ad" />
+                  <Stop color="#000000f2" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="lblWelcome" alignment="TOP_CENTER" layoutX="177.0" layoutY="442.0" prefHeight="36.0" prefWidth="363.0" text="Welcome" textAlignment="CENTER">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5666666666666667" endY="0.5857142857142857" startX="0.7047619047619048" startY="0.2857142857142857">
+               <stops>
+                  <Stop color="#460202" />
+                  <Stop color="#5e5050" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label fx:id="lblStatus" alignment="CENTER" layoutX="70.0" layoutY="478.0" prefHeight="36.0" prefWidth="577.0" text="Please Select an Option to Proceed" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.5666666666666667" endY="0.5857142857142857" startX="0.7047619047619048" startY="0.2857142857142857">
+               <stops>
+                  <Stop color="#460202" />
+                  <Stop color="#5e5050" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fx:id="imgReturn" fitHeight="150.0" fitWidth="80.0" layoutX="633.0" layoutY="249.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/Return.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBurrow" fitHeight="100.0" fitWidth="120.0" layoutX="504.0" layoutY="249.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/borrow.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

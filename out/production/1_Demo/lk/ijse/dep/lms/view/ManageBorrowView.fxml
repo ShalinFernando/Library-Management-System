@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="root" prefHeight="668.0" prefWidth="674.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep.lms.controller.ManageBorrowController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutX="-2.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="676.0">
+         <fill>
+            <LinearGradient endX="0.638095238095238" endY="1.0" startX="0.638095238095238" startY="0.5619047619047619">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="219.0" layoutY="23.0" text="Borrow Books" textFill="#fcf8f8">
+         <font>
+            <Font name="Courier New" size="35.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgHome" fitHeight="70.0" fitWidth="100.0" layoutX="22.0" layoutY="9.0" onMouseClicked="#navigate" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/house-148033_640.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="txtMemberID" labelFloat="true" layoutX="63.0" layoutY="142.0" onAction="#txtMemberID_OnAction" prefHeight="25.0" prefWidth="144.0" promptText="Member ID" />
+      <JFXTextField fx:id="txtMemberName" labelFloat="true" layoutX="242.0" layoutY="142.0" prefHeight="25.0" prefWidth="400.0" promptText="Member Name" />
+      <JFXTextField fx:id="txtBookID" labelFloat="true" layoutX="63.0" layoutY="182.0" onAction="#txtBookID_OnAction" prefHeight="25.0" prefWidth="144.0" promptText="Book ID" />
+      <JFXTextField fx:id="txtBookName" labelFloat="true" layoutX="242.0" layoutY="182.0" prefHeight="25.0" prefWidth="400.0" promptText="Book Name" />
+      <JFXTextField fx:id="txtAuthorID" labelFloat="true" layoutX="63.0" layoutY="229.0" onAction="#txtAuthorID_OnAction" prefHeight="25.0" prefWidth="144.0" promptText="Author ID" />
+      <JFXTextField fx:id="txtAuthorName" labelFloat="true" layoutX="242.0" layoutY="229.0" prefHeight="25.0" prefWidth="400.0" promptText="Author Name" />
+      <JFXTextField fx:id="txtPublisherID" labelFloat="true" layoutX="63.0" layoutY="277.0" onAction="#txtPublisherID_OnAction" prefHeight="25.0" prefWidth="144.0" promptText="Publisher ID" />
+      <JFXTextField fx:id="txtPublisherName" labelFloat="true" layoutX="242.0" layoutY="277.0" prefHeight="25.0" prefWidth="400.0" promptText="Publisher Name" />
+      <JFXDatePicker fx:id="dprBorrowDate" layoutX="63.0" layoutY="329.0" prefHeight="28.0" prefWidth="144.0" promptText="Borrow Date">
+         <defaultColor>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#03544c" />
+                  <Stop color="#8a6c6c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </defaultColor>
+      </JFXDatePicker>
+      <JFXDatePicker fx:id="dprReturnDate" layoutX="243.0" layoutY="329.0" prefHeight="28.0" prefWidth="144.0" promptText="Return Date">
+         <defaultColor>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#03544c" />
+                  <Stop color="#8a6c6c" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </defaultColor>
+      </JFXDatePicker>
+      <JFXButton fx:id="btnSave" buttonType="RAISED" layoutX="437.0" layoutY="331.0" onAction="#btnSave_OnAction" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: lime;" text="Add" textAlignment="CENTER" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </JFXButton>
+      <TableView fx:id="tblBorrow" layoutX="55.0" layoutY="376.0" prefHeight="125.0" prefWidth="581.0">
+        <columns>
+          <TableColumn prefWidth="83.0" text="Member ID" />
+          <TableColumn prefWidth="72.0" text="Book ID" />
+            <TableColumn prefWidth="88.0" text="Author ID" />
+            <TableColumn prefWidth="81.0" text="Publisher ID" />
+            <TableColumn prefWidth="129.0" text="Borrow Date" />
+            <TableColumn prefWidth="127.0" text="Return Date" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="btnDelete" buttonType="RAISED" layoutX="542.0" layoutY="331.0" onAction="#btnDelete_OnAction" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: #99004d;" text="Delete" textAlignment="CENTER" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </JFXButton>
+      <ImageView fx:id="imgBorrow" fitHeight="150.0" fitWidth="150.0" layoutX="271.0" layoutY="529.0" onMouseClicked="#imgBorrow_OnMouseClicked" onMouseEntered="#PlayEnterAnimation" onMouseExited="#PlayExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/lib.gif" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="btnNew" buttonType="RAISED" layoutX="598.0" layoutY="97.0" onAction="#btnNew_OnAction" style="-fx-background-color: yellow;" text="New" />
+      <Label fx:id="lblBorrowID" layoutX="126.0" layoutY="101.0" prefHeight="17.0" prefWidth="81.0" />
+      <Label layoutX="41.0" layoutY="101.0" text="Borrow ID : " />
+      <JFXButton fx:id="btnReport" buttonType="RAISED" layoutX="504.0" layoutY="560.0" onAction="#btnReport_OnAction" prefHeight="25.0" prefWidth="107.0" style="-fx-background-color: purple;" text="Borrow Report" textAlignment="CENTER" textFill="#fcf7f7">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </JFXButton>
+   </children>
+</AnchorPane>
